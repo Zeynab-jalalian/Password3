@@ -57,24 +57,24 @@ body {
 .input-box i {
   right: 15px;
 }
-.alert{
+.alert {
   display: flex;
   align-items: center;
   margin-top: -13px;
 }
-.alert .errorIcon{
+.alert .errorIcon {
   margin-right: 8px;
   color: #d93025;
   font-size: 18px;
   display: none;
 }
-.alert .text{
+.alert .text {
   color: #a6a6a6;
   font-weight: 500;
   font-size: 18px;
 }
-.input-box input:focus ~ label ,
-.input-box input:valid ~ label{
+.input-box input:focus ~ label,
+.input-box input:valid ~ label {
   top: 0;
   color: #4070f4;
   font-size: 14px;
@@ -83,7 +83,7 @@ body {
 .input-box input:focus {
   border-color: #4070f4;
 }
-.input-box.button #button{
+.input-box.button #button {
   background: #4070f4;
   border: none;
   outline: none;
@@ -92,6 +92,6 @@ body {
   letter-spacing: 1px;
   cursor: not-allowed;
 }
-.input-box.button #button:hover{
+.input-box.button #button:hover {
   background: #265df2;
 }
