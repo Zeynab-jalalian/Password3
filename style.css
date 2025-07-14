@@ -57,6 +57,7 @@ body {
 .input-box i {
   right: 15px;
   cursor: pointer;
+  padding: 8px;
 }
 .alert {
   display: flex;
@@ -93,6 +94,8 @@ body {
   letter-spacing: 1px;
   cursor: not-allowed;
 }
-.input-box.button #button:hover {
+.input-box.button #button.active:hover {
   background: #265df2;
+  cursor: pointer;
 }
+
